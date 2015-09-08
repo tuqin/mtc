@@ -1,0 +1,46 @@
+﻿生成启动时间为 2013/5/26 16:37:29。
+     1>项目“D:\12.18\MTC265\build\x265\x265.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\x265.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\encode.cpp
+         encode.cpp
+     1>..\..\src\encode.cpp(1527): warning C4018: “>”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(1527): warning C4018: “>”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(1542): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(1542): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(1931): warning C4244: “=”: 从“Pxl”转换到“UInt8”，可能丢失数据
+     1>..\..\src\encode.cpp(1946): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\..\src\encode.cpp(2779): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(2781): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(2884): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(2886): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(3086): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(3088): warning C4018: “>=”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(7773): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\..\src\encode.cpp(7778): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\12.18\MTC265\build\..\bin\Release\x265.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\x265.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\12.18\MTC265\bin\Release\x265.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\12.18\MTC265\build\..\bin\Release\x265.lib" /MACHINE:X86 Release\bitstream.obj
+         Release\encode.obj
+         Release\InterpolationFilter.obj
+         Release\InterpolationFilter16Bit.obj
+         Release\loopfilter.obj
+         Release\md5.obj
+         Release\params.obj
+         Release\pixel.obj
+         Release\table.obj
+         Release\x265.obj
+         正在生成代码
+         已完成代码的生成
+         x265.vcxproj -> D:\12.18\MTC265\build\..\bin\Release\x265.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\12.18\MTC265\build\..\bin\Release\x265.exe;#1" /manifest Release\x265.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\x265.unsuccessfulbuild”。
+         正在对“Release\x265.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\12.18\MTC265\build\x265\x265.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.81
